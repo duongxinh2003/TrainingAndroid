@@ -1,4 +1,4 @@
-package com.fu.databindingdemo.Util;
+package com.fu.databindingdemo.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

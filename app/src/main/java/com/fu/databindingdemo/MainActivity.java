@@ -11,6 +11,7 @@ import com.fu.databindingdemo.model.MainActivityViewModel;
 import com.fu.databindingdemo.recyclerview.BaseRecyclerViewAdapter;
 import com.fu.databindingdemo.recyclerview.SingleTypeAdapter;
 import com.fu.databindingdemo.view.BaseActivity;
+import com.fu.databindingdemo.view.LoginActivity;
 
 import java.util.List;
 

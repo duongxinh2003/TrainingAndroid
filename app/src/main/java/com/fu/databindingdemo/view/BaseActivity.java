@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
-import com.fu.databindingdemo.Util.NetworkUtils;
+import com.fu.databindingdemo.util.NetworkUtils;
 
 public abstract class BaseActivity<T extends ViewDataBinding, V extends BaseObservable> extends AppCompatActivity {
     private T binding;

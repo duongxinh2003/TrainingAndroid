@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ActivityMain-->
+    <dimen name="navigator_bar_layout_height">56dp</dimen>
+    <dimen name="first_item_marginLeft">5dp</dimen>
+    <dimen name="first_item_layout">50dp</dimen>
+    <dimen name="first_search_layout">24dp</dimen>
+    <!--ActivityLogin-->
+    <dimen name="textView_marginBottom">16dp</dimen>
+    <dimen name="textView_marginLeft">32dp</dimen>
+    <dimen name="margin_72dp">72dp</dimen>
+</resources>

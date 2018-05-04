@@ -22,14 +22,14 @@
             android:background="@color/colorPrimaryLight"
             android:id="@+id/rlContact"
             android:layout_width="match_parent"
-            android:layout_height="56dp">
+            android:layout_height="@dimen/navigator_bar_layout_height">
             <ImageView
                 android:layout_weight="1"
                 android:src="@drawable/ic_list_black_24dp"
                 android:id="@+id/imgList"
-                android:layout_marginLeft="5dp"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/first_item_marginLeft"
+                android:layout_width="@dimen/first_item_layout"
+                android:layout_height="@dimen/first_item_layout"
                 android:layout_gravity="center_vertical"/>
             <TextView
                 android:layout_weight="2"
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="@dimen/first_item_marginLeft"
                 android:text="@{viewModel.text}"/>
             <LinearLayout
                 android:layout_weight="2"
@@ -54,8 +54,8 @@
                     android:src="@drawable/ic_search_black_24dp"
                     android:layout_marginLeft="10dp"
                     android:layout_gravity="center_vertical"
-                    android:layout_width="24dp"
-                    android:layout_height="24dp" />
+                    android:layout_width="@dimen/first_search_layout"
+                    android:layout_height="@dimen/first_search_layout" />
                 <EditText
                     android:layout_marginLeft="1dp"
                     android:textColor="@color/white"
@@ -64,7 +64,7 @@
                     android:hint="Search"
                     android:textSize="24sp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="@dimen/first_item_layout"
                     android:layout_gravity="center_vertical"
                     android:backgroundTint="@android:color/transparent"/>
             </LinearLayout>

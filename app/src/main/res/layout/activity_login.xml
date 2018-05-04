@@ -15,25 +15,25 @@
             android:id="@+id/loginTitle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="22dp"
+            android:layout_marginBottom="@dimen/textView_marginBottom"
+            android:layout_marginTop="@dimen/first_search_layout"
             android:gravity="center_horizontal"
             android:text="Account Login"
-            android:textColor="#fff"
-            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/loginTitle"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginLeft="@dimen/textView_marginLeft"
+            android:layout_marginRight="@dimen/textView_marginLeft"
+            android:layout_marginTop="@dimen/margin_72dp"
             android:background="@color/white"
             android:elevation="4dp"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="@dimen/first_search_layout">
 
             <LinearLayout
                 android:focusable="true"
@@ -41,7 +41,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingTop="30dp">
+                android:paddingTop="@dimen/textView_marginLeft">
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                     android:background="@color/colorCompoundLight"
                     android:text="Sign in"
                     android:textAllCaps="false"
-                    android:textColor="#fff"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
         </RelativeLayout>

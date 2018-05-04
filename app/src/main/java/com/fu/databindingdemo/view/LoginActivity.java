@@ -1,8 +1,10 @@
-package com.fu.databindingdemo;
+package com.fu.databindingdemo.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.fu.databindingdemo.BR;
+import com.fu.databindingdemo.R;
 import com.fu.databindingdemo.databinding.ActivityLoginBinding;
 import com.fu.databindingdemo.model.ContactViewModel;
 import com.fu.databindingdemo.view.BaseActivity;
