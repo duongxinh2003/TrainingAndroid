@@ -1,0 +1,1 @@
+Design Login form and create Base Activity + RecyclerViewAdapter

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="presenter"
+            type="com.fu.databindingdemo.MainActivity.OnClickItem"/>
+        <variable
+            name="viewModel"
+            type="com.fu.databindingdemo.model.ContactViewModel"/>
+    </data>
+    <RelativeLayout
+        android:id="@+id/rlRoot"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/imgContact"
+            android:background="@drawable/oval_curved"
+            android:layout_width="50dp"
+            android:text="@{viewModel.firstChar}"
+            android:layout_height="50dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerVertical="true"
+            android:onClick="@{() -> presenter.onLoginActivity()}"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/imgContact"
+            android:layout_centerVertical="true"
+            android:text="@{viewModel.name}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> presenter.onItemClick(viewModel.name)}"/>
+        <TextView
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@{viewModel.phone}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#44000000"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </RelativeLayout>
+</layout>
